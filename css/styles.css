@@ -6,7 +6,7 @@
     --Green: hsl(75, 94%, 57%);
     /* Neutral */
     --White: hsl(0, 0%, 100%);
-    --Grey: hsl(0, 0%, 22%);
+    --Grey: hsl(0, 0%, 20%);
     --Dark-Grey: hsl(0, 0%, 12%);
     --Off-Black: hsl(0, 0%, 8%);
 }
@@ -72,7 +72,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30rem;
+    width: 31.5rem;
     transition: 0.7s ease;
     
 }
@@ -82,20 +82,21 @@ main {
     }
 }
 .profile-card__img {
+    max-width: 10rem;
     width: 10rem;
     border-radius: 50%;
     margin-bottom: 3rem;    
 }
 
 .profile-card__name {
-    font-size: 2.4rem;
-    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+    /* letter-spacing: 0.05rem; */
     color: var(--White);
     margin: 0;
 }
 
 .profile-card__location {
-
+    font-size: 1.5rem;
     color: var(--Green);
 }
 
@@ -116,7 +117,7 @@ main {
     font-weight: 700;
     color: var(--White);
     align-content: center;
-    height: 4.5rem;
+    height: 4.8rem;
     border-radius: 0.7rem;
     border: none;
     background-color: var(--Grey);
@@ -137,7 +138,7 @@ main {
     border-radius: 1rem;
     background-color: var(--Green);
 }
-.frontend-link {
+.attribution-link {
     text-decoration: none;
     
     color: blueviolet; 
